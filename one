@@ -6,7 +6,7 @@
 </head>
 <body>
   <header>
-    <div>app.creation<div>
+    <div>app.creation</div>
       <nav>
         <a>start</a>
         <a>services</a>
@@ -20,7 +20,6 @@
         <h1>Building an App Without Design Expertise?</h1>
         <p>I help tech startups design better digital products
 without hiring a full-time designer</p>
-</body>
         <button>Schedule free consultation</button>
       </main>
       <div>
