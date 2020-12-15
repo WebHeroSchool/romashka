@@ -33,7 +33,7 @@ body {
   text-decoration: none;
   transition: opacity .5s;
 }
-.menu__item_active:after {
+.menu__item:after {
  position: absolute;
  left: 0;
  display: block;
