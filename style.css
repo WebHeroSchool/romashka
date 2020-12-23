@@ -21,6 +21,7 @@ body {
   width: 190px;
   height: 35px;
   background: url('img/logo.svg');
+  font-size: 0;
 }
 
 .menu {
