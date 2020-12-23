@@ -143,7 +143,7 @@ body {
 }
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
-  left: 0;
+  right: 0;
 }
 
 .menu__btn {
