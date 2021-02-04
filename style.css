@@ -100,10 +100,6 @@ body {
    display: none;
    }
 
-  .hamburger-menu {
-    margin-bottom: 28px;
-  }
-
   .header {
    margin-bottom: 28px;
   }
@@ -130,8 +126,6 @@ body {
   }
 }
 
-@media (max-width: 375px) {
-  .hamburger-menu {}
 #menu__toggle {
   opacity: 0;
 }
@@ -156,7 +150,7 @@ body {
   display: flex;
   align-items: center;
   position: fixed;
-  top: 32px;
+  top: 0px;
   right: 20px;
 
   width: 26px;
@@ -225,4 +219,18 @@ body {
 }
 .menu__item:hover {
   background-color: #CFD8DC;
+}
+
+@media (max-width: 375px) {
+  .hamburger-menu {
+    margin-bottom: 28px;
+  }
+
+  .logo {
+    height: 35px;
+    width: 36px;
+    left: 24px;
+    top: 24px;
+    background: url('img/group 1.svg');
+  }
 }
