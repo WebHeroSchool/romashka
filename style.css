@@ -36,7 +36,7 @@ body {
   text-decoration: none;
   transition: opacity .5s;
 }
-.menu__item_active::after {
+.menu__item_active:after {
   position: absolute;
   display: block;
   content: '';
