@@ -36,6 +36,15 @@ body {
   text-decoration: none;
   transition: opacity .5s;
 }
+.menu__item_active::after {
+  position: absolute;
+  display: block;
+  content: '';
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #0056EC;
+}
 
 .menu__item:after {
   position: absolute;
