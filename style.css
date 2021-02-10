@@ -14,7 +14,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 280px;
+  margin-bottom: 260px;
 }
 
 .logo {
@@ -104,6 +104,11 @@ body {
   opacity: .5;
 }
 
+@media (max-width: 1920px) {
+  .main__title {
+    font: bold 66px/88px pt_serif, arial, helvetica, sans-serif;
+  }
+}
 @media (max-width: 768px) {
   .menu {
    display: none;
