@@ -150,8 +150,17 @@ body {
   }
 
   .main {
-    padding: 0 63% 150px 0;
+    padding: 0 50% 100px 0;
     background: top right no-repeat url(img/mainImg.svg);
+  }
+
+  .main__subtitle {
+    margin: 0 0 41px 0;
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 }
 
