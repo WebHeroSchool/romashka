@@ -139,6 +139,11 @@ body {
     margin-right: 30px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
+
+  .main__title {
+    margin: 0 0 36px 0;
+    font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+  }
 }
 @media (max-width: 768px) {
   .menu {
