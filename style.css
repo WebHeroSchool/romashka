@@ -111,12 +111,16 @@ body {
   }
 
   .main__subtitle {
+    display: table;
+    white-space: pre-line;
+    word-wrap: break-word;
     margin: 0 0 45px 0;
     font: 22px/26px Roboto, arial, helvetica, sans-serif;
   }
 
   .main__button {
     font: 18px/21px Roboto, arial, helvetica, sans-serif;
+  }
 }
 
 @media (max-width: 768px) {
