@@ -164,6 +164,17 @@ body {
   }
 }
 
+@media (max-width: 1024px) {
+  .wrapper {
+    margin: auto;
+    width: 92%;
+  }
+
+  .menu__item {
+    margin-right: 26px;
+  }  
+}
+
 @media (max-width: 768px) {
   .menu {
    display: none;
