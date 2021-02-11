@@ -121,7 +121,12 @@ body {
   .main__button {
     font: 18px/21px Roboto, arial, helvetica, sans-serif;
   }
-}
+
+  .main {
+    padding: 0 63% 100px 0;
+    background: top right no-repeat 100% 100% url(img/mainImg.svg);
+    background-size: cover;
+  }
 
 @media (max-width: 768px) {
   .menu {
