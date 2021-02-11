@@ -172,16 +172,21 @@ body {
 
   .menu__item {
     margin-right: 26px;
-  }  
+  }
 }
 
 @media (max-width: 768px) {
+  body {
+    margin-top: 24px;
+  }
+
   .menu {
-   display: none;
+    display: none;
    }
 
   .header {
-   margin-bottom: 28px;
+    margin-top: 26px;
+    margin-bottom: 28px;
   }
 
   .hamburger-menu {
