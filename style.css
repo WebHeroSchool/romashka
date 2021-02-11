@@ -125,13 +125,21 @@ body {
   .main {
     padding: 0 63% 100px 0;
     background: top right no-repeat url(img/mainImg.svg);
-    background-size: 10% 10%;
+    background-size: 50%;
   }
-
-@media (max-width: 1366px) {
-
 }
 
+@media (max-width: 1366px) {
+  .wrapper {
+      margin: auto;
+      width: 69%;
+  }
+
+  .menu__item {
+    margin-right: 30px;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+}
 @media (max-width: 768px) {
   .menu {
    display: none;
