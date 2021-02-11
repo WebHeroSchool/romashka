@@ -124,7 +124,7 @@ body {
 
   .main {
     padding: 0 63% 100px 0;
-    background: top right no-repeat 100% 100% url(img/mainImg.svg);
+    background: top right no-repeat url(img/mainImg.svg);
     background-size: cover;
   }
 
