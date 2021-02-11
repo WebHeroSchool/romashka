@@ -185,7 +185,7 @@ body {
    }
 
   .header {
-    margin-bottom: 28px;
+    margin-bottom: 32px;
   }
 
   .hamburger-menu {
@@ -309,8 +309,9 @@ body {
   }
 
   .main__subtitle {
+    display: none;
+    white-space: 
    margin-bottom: 25px;
-   left: 10px;
    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
