@@ -173,6 +173,12 @@ body {
   .menu__item {
     margin-right: 26px;
   }
+
+  .main {
+    padding: 0 63% 80px 0;
+    background: top right no-repeat url(img/mainImg.svg);
+    background-size: 50%;
+  }
 }
 
 @media (max-width: 768px) {
