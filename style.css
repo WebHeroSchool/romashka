@@ -140,7 +140,7 @@ body {
   }
 
   .menu__item {
-    margin-right: 30px;
+    margin-right: 26px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 
@@ -151,7 +151,7 @@ body {
 
   .main {
     padding: 0 50% 100px 0;
-    background: top right no-repeat url(img/mainImg.svg);
+    background: top 20% right 2% no-repeat url(img/mainImg.svg);
   }
 
   .main__subtitle {
