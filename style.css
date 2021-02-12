@@ -140,14 +140,10 @@ body {
   }
 
   .menu__item {
-    margin-right: 26px;
+    margin-right: 28px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 
-  .menu__item:last-child {
-    margin-right: 0;
-  }
-  
   .main__title {
     margin: 0 0 36px 0;
     font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
