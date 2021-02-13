@@ -117,6 +117,7 @@ body {
   }
 
   .main__button {
+    margin-left: 10px;
     font: 18px/21px Roboto, arial, helvetica, sans-serif;
   }
 
