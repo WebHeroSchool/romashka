@@ -306,6 +306,7 @@ body {
   }
 
   .main__subtitle {
+    display: inline-block;
     margin-bottom: 25px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
