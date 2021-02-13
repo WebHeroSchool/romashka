@@ -131,6 +131,7 @@ body {
     margin-right: 26px;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   }
+
   .menu {
     width: 25%;
   }
@@ -139,7 +140,7 @@ body {
 @media (max-width: 1366px) {
   .wrapper {
       margin: auto;
-      width: 69%;
+      width: 68%;
   }
 
   .header {
@@ -167,6 +168,7 @@ body {
   }
 
   .main__button {
+    margin-left: 0;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 }
