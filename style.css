@@ -203,6 +203,11 @@ body {
     margin-top: 24px;
   }
 
+  .wrapper {
+    margin: auto;
+    width: 88%;
+  }
+
   .menu {
     display: none;
    }
@@ -336,16 +341,5 @@ body {
 @media (min-width: 768px) {
   .hamburger-menu {
     display: none;
-  }
-}
-
-@media (max-width: 375px) {
-  .main__subtitle {
-    display: inline-block;
-    margin-bottom: 25px;
-    height: 57px;
-    width: 275px;
-    left: 53px;
-    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 }
