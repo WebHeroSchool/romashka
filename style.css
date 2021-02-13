@@ -307,7 +307,7 @@ body {
 
   .main__subtitle {
     display: block;
-    white-space: nowrap;
+    white-space: normal;
     margin-bottom: 25px;
     height: 57px;
     width: 275px;
