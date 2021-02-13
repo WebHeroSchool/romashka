@@ -14,7 +14,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 240px;
+  margin-bottom: 0 240px 0 5;
 }
 
 .logo {
@@ -130,10 +130,6 @@ body {
   .menu__item {
     margin-right: 26px;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
-  }
-
-  .menu__item:last-child {
-    display: none;
   }
 }
 
