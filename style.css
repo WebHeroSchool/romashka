@@ -306,11 +306,7 @@ body {
   }
 
   .main__subtitle {
-    display: inline-block;
     margin-bottom: 25px;
-    height: 57px;
-    width: 275px;
-    left: 53px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
@@ -331,5 +327,12 @@ body {
 }
 
 @media (max-width: 375px) {
-
+  .main__subtitle {
+    display: inline-block;
+    margin-bottom: 25px;
+    height: 57px;
+    width: 275px;
+    left: 53px;
+    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+  }
 }
