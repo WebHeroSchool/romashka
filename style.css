@@ -133,7 +133,7 @@ body {
   }
 
   .menu__item:last-child {
-    margin-right: 5;
+    display: none;
   }
 }
 
