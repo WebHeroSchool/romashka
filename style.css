@@ -14,7 +14,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 0 240px 0 5;
+  margin: 0 240px 0 5;
 }
 
 .logo {
