@@ -144,7 +144,7 @@ body {
   }
 
   .header {
-    margin-bottom: 140px;
+    margin: 0 0 140px 0;
   }
 
   .menu__item {
@@ -170,6 +170,10 @@ body {
   .main__button {
     margin-left: 0;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+
+  .menu {
+    width: 34.8%;
   }
 }
 
