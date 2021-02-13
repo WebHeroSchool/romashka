@@ -111,9 +111,6 @@ body {
   }
 
   .main__subtitle {
-    display: table;
-    white-space: pre-line;
-    word-wrap: break-word;
     margin: 0 0 45px 0;
     width: 75%;
     font: 22px/26px Roboto, arial, helvetica, sans-serif;
@@ -133,7 +130,7 @@ body {
   .menu__item {
     margin-right: 26px;
   }
-  
+
   .menu__item {
     position: relative;
     margin-right: 30px;
