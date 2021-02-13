@@ -306,9 +306,8 @@ body {
   }
 
   .main__subtitle {
-    display: block;
+    display: inline-block;
     margin-bottom: 25px;
-    margin-right: 0
     height: 57px;
     width: 275px;
     left: 53px;
