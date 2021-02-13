@@ -128,6 +128,7 @@ body {
   }
 
   .menu__item {
+    width: 23%;
     margin-right: 26px;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   }
