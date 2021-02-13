@@ -180,17 +180,21 @@ body {
 @media (max-width: 1024px) {
   .wrapper {
     margin: auto;
-    width: 92%;
+    width: 91%;
   }
 
   .menu__item {
-    margin-right: 26px;
+    margin-right: 28px;
   }
 
   .main {
     padding: 0 50% 100px 0;
     background: top 20% right 1% no-repeat url(img/mainImg.svg);
     background-size: 53%;
+  }
+
+  .menu {
+    width: 34.8%;
   }
 }
 
