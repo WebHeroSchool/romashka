@@ -140,8 +140,8 @@ body {
 
 @media (max-width: 1366px) {
   .wrapper {
-      margin: auto;
-      width: 68%;
+    margin: auto;
+    width: 68%;
   }
 
   .header {
@@ -224,11 +224,11 @@ body {
    }
 
   .header {
-    margin-bottom: 32px;
+    margin-bottom: 44px;
   }
 
   .hamburger-menu {
-    margin-top: 26px;
+    margin-top: -26px;
   }
 
   #menu__toggle {
@@ -329,15 +329,15 @@ body {
   }
 
   .main {
-   text-align: center;
-   padding: 74% 0 0;
-   background-size: 80%;
-   background-position: top 2% center;
+    text-align: center;
+    padding: 74% 0 0;
+    background-size: 80%;
+    background-position: top 2% center;
   }
 
   .main__title {
-   margin-bottom: 35px;
-   font: bold 30px/39px pt_serifbold, arial, helvetica, sans-serif;
+    margin-bottom: 35px;
+    font: bold 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
@@ -347,12 +347,35 @@ body {
   }
 
   .main__button {
-   font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 }
 
 @media (min-width: 769px) {
   .hamburger-menu {
     display: none;
+  }
+}
+
+.animate-motion {
+  z-index: 2;
+  animation: animate_motion 5s 0s both infinite;
+}
+
+.animate-motion:hover {
+  animation: none;
+}
+
+@keyframes animate_motion {
+	from {
+		transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-50px);
+  }
+
+  100% {
+    transform: translateX(0);
   }
 }
