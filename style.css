@@ -371,9 +371,9 @@ body {
 }
 
 @keyframes animate_motion {
-	  from {
-	   	  transform: translateX(0);
-    }
+  from {
+    transform: translateX(0);
+  }
 
   50% {
     transform: translateX(-50px);
