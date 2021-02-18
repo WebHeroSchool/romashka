@@ -7,7 +7,8 @@ body {
   width: 80%;
 }
 
-.logo,.menu {
+.logo,
+.menu {
   display: inline-block;
 }
 
@@ -240,7 +241,7 @@ body {
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #0056EC;
+    background-color: #0056ec;
     transition-duration: .25s;
   }
 
@@ -266,7 +267,7 @@ body {
     padding: 0 0;
     list-style: none;
     text-align: center;
-    background-color: #FFF;
+    background-color: #fff;
 
     /* box-shadow: 1px 0px 6px rgba(0, 0, 0, .2); */
     transition-duration: 0.25s;
@@ -370,9 +371,9 @@ body {
 }
 
 @keyframes animate_motion {
-	from {
-		transform: translateX(0);
-  }
+	  from {
+	   	  transform: translateX(0);
+    }
 
   50% {
     transform: translateX(-50px);
